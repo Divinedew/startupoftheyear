@@ -1,0 +1,42 @@
+body{ 
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover keyword;
+  }
+
+.container{
+  height: 700px;
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+hr{
+  margin: 20px auto;
+  color: darksalmon;
+  border: 3px solid darksalmon ;
+  max-width: 65px;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.buffer{
+  height: 2rem;
+}
+
+.btn-outline-dark{
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  background-color: darksalmon;
+  border-color: darksalmon;
+}
+
+.btn-outline-dark:hover{
+  background-color: rgb(245, 136, 99);
+  border-color: rgb(245, 136, 99);
+  border-width: 3px;
+}
